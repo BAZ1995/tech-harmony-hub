@@ -88,6 +88,16 @@ const Footer = () => {
             <h4 className="font-display font-semibold text-foreground mb-4">Contact Info</h4>
             <ul className="space-y-3 text-muted-foreground">
               <li>+1 (555) 123-4567</li>
+              <li>
+                <a 
+                  href="https://wa.me/15551234567" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="hover:text-primary transition-colors"
+                >
+                  WhatsApp: +1 (555) 123-4567
+                </a>
+              </li>
               <li>info@techpro.com</li>
               <li>123 Tech Street,<br />City, State 12345</li>
             </ul>
