@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
-import { Phone, Mail, MapPin, Clock } from "lucide-react";
+import { Phone, Mail, MapPin, Clock, MessageCircle } from "lucide-react";
 
 const contactInfo = [
   {
@@ -9,6 +9,12 @@ const contactInfo = [
     label: "Phone",
     value: "+1 (555) 123-4567",
     href: "tel:+15551234567",
+  },
+  {
+    icon: MessageCircle,
+    label: "WhatsApp",
+    value: "+1 (555) 123-4567",
+    href: "https://wa.me/15551234567",
   },
   {
     icon: Mail,
